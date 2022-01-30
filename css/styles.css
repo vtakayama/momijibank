@@ -1,5 +1,11 @@
+/* common */
+
+body {
+  margin: 0;
+}
+
 h1 {
-  font-size: 24px;
+  font-size: 30px;
   padding-left: 16px;
-  border-left: 8px solid red;
+  background-color: silver;
 }
