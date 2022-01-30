@@ -4,8 +4,10 @@ body {
   margin: 0;
 }
 
+
 h1 {
   font-size: 30px;
-  padding-left: 16px;
+  padding: 32px;
   background-color: silver;
+  margin: 0;
 }
