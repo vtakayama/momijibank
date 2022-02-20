@@ -19,51 +19,55 @@ h2 {
   font-weight: normal;
 }
 
-.container {
-  width: 400px;
-  margin: 0 auto;
-}
-
 /* header */
 
 header {
   background: #efefef;
+  text-align: center;
 }
 
-header .container {
-  padding: 32px 0;
+.container {
+  margin: 0 auto;
   display: flex;
-  align-items: center;
-}
-
-header .container div + div {
-  margin-left: 32px;
+  width: calc(100% - 32px);
 }
 
 header h1 {
-  font-size: 24px;
+  margin:0;
+  padding-bottom: 16px;
 }
 
-header ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.stn {
+  font-size: 30px;
+  padding-left: 16px;
+  font-weight: normal;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header ul li + li {
-  margin-left: 8px;
-}
 
-header .icon {
-  border-radius: 50%;
-}
+/* section */
+
+
+
 
 /* main */
 
+main {
+  background-color: blanchedalmond;
+}
+
+.gz {
+  /* 画像の位置 */
+  width: calc(100% - 32px);
+  margin: 0 auto;
+  justify-content: space-between;
+  text-align: center;
+}
+
 main h1 {
   font-size: 24px;
-  text-align: center;
   padding: 60px 0;
 }
 
@@ -88,5 +92,3 @@ footer {
   text-align: center;
   color: #aaa;
 }
-
-
