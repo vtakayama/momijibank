@@ -1,7 +1,7 @@
 /* common */
 
 body {
-  margin: 0;
+  margin: 0
 }
 
 img {
@@ -19,6 +19,20 @@ h2 {
   font-weight: normal;
 }
 
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: calc(100% - 32px);
+}
+
+.stn {
+  font-size: 30px;
+  padding-left: 16px;
+  font-weight: normal;
+  /* display: flex; */
+  align-items: center;
+}
+
 /* header */
 
 header {
@@ -26,26 +40,10 @@ header {
   text-align: center;
 }
 
-.container {
-  margin: 0 auto;
-  display: flex;
-  width: calc(100% - 32px);
-}
-
 header h1 {
   margin:0;
   padding-bottom: 16px;
 }
-
-.stn {
-  font-size: 30px;
-  padding-left: 16px;
-  font-weight: normal;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 
 /* section */
 
@@ -60,25 +58,34 @@ main {
 
 .gz {
   /* 画像の位置 */
-  width: calc(100% - 32px);
   margin: 0 auto;
   justify-content: space-between;
   text-align: center;
+  width: calc(100% - 100px);
 }
 
 main h1 {
-  font-size: 24px;
+  font-size: 36px;
   padding: 60px 0;
 }
 
 main h2 {
-  font-size: 20px;
+  font-size: 24px;
   margin-top: 16px;
 }
 
-main p {
-  line-height: 1.8;
-  margin-top: 16px;
+.stm {
+  font-size: 20px;
+  padding-left: 16px;
+  font-weight: normal;
+  /* display: flex; */
+  align-items: center;
+  font-style: normal;
+  text-align: left;
+}
+
+section > img {
+  padding-bottom: 40px;
 }
 
 main section + section {
