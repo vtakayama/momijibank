@@ -26,6 +26,7 @@ h2 {
 }
 
 .stn {
+  color: dimgray;
   font-size: 30px;
   padding-left: 16px;
   font-weight: normal;
@@ -46,9 +47,54 @@ header h1 {
 }
 
 /* section */
+/* section {
+  background-color: palegoldenrod;
+} */
 
+.act {
+  margin: 30px auto;
+  width: 500px;
+}
 
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
 
+.menu li a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  padding: 8px 0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.menu li a.active {
+  background: khaki;
+  color: #333;
+}
+
+.menu li a:not(.active):hover {
+  opacity: 0.5;
+  transition: opacity 0.4s;
+
+} 
+
+.content.active {
+  background: khaki;
+  color: #333;
+  min-height: 150px;
+  padding: 12px;
+  display: block;
+}
+
+.content {
+  display: none;
+}
 
 /* main */
 
@@ -65,13 +111,14 @@ main {
 }
 
 main h1 {
+  color: coral;
   font-size: 36px;
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 main h2 {
   font-size: 24px;
-  margin-top: 16px;
+  margin-top: 5px;
 }
 
 .stm {

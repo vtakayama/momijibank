@@ -30,19 +30,27 @@
 
   <section>
     <div class="act">
-      <p>お知らせ</p>
-      <ul>
-        <li>セミナー</li>
-        <li>
-          <a href="#">
-            <img
-              src="img/photos.png"
-              alt="写真アイコン"
-              width="20"
-              height="20">
-          </a>
-        </li>
+      <ul class="menu">
+        <li><a href="#" class="active" data-id="about">お知らせ</a></li>
+        <li><a href="#" data-id="service">お問い合わせ</a></li>
       </ul>
+
+      <section class="content active" id="about">
+        <dl>
+          <dt>2022年2月28日</dt>
+          <dd><a href="https://lacm.jp/events/922/?post_id=922">セミナーについて</a></dd>
+          <dt>2022年2月25日</dt>
+          <dd><a href="https://vtakayama.github.io/momijibank/">サイト設立</a></dd>
+        </dl>
+      </section>
+      <section class="content" id="service">
+        <dl>
+          <dt>連絡先</dt>
+          <dd>0827-22-2323</dd>
+          <dt>FAX</dt>
+          <dd>0827-22-5264</dd>
+        </dl>
+      </section>
     </div>
   </section>
 
@@ -115,5 +123,7 @@
   <footer>
     <small>(c) momijibank.com</small>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
