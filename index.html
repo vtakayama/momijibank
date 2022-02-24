@@ -7,10 +7,12 @@
   <title>もみじ銀行岩国支店</title>
   <link rel="icon" href="img/logo.jpg">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
 </head>
 <body>
   <header>
-    <div class="container">
+    <div class="contain">
       <h1><img 
               src="img/0569.png" 
               alt="もみじ銀行"
@@ -18,15 +20,29 @@
               height="50">
       </h1>
       <a class="stn">岩国支店</a>
-    </div>
-      <div class="siten">
-        <img
-        src="img/siten.jpg"
-        alt="支店画像"
-        width="500"
-        height="350">
+      <div class="sp-menu">
+        <span class="material-icons" id="open">menu</span>
       </div>
+    </div>
+    <div class="siten">
+      <img
+      src="img/siten.jpg"
+      alt="支店画像"
+      width="500"
+      height="350">
+    </div>
   </header>
+  
+  <div class="overlay">
+    <span class="material-icons" id="close">close</span>
+    <nav>
+      <ul>
+        <li><a href="#">行員紹介</a></li>
+        <li><a href="#">行員紹介</a></li>
+        <li><a href="#">行員紹介</a></li>
+      </ul>
+    </nav>
+  </div>
 
   <section>
     <div class="act">
@@ -126,5 +142,6 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/main2.js"></script>
 </body>
 </html>
