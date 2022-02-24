@@ -25,6 +25,12 @@ h2 {
   width: calc(100% - 32px);
 }
 
+/* .siten {
+    width: calc(100% - 32px);
+    height: auto;
+    margin-top: 0;
+} */
+
 .stn {
   color: dimgray;
   font-size: 30px;
@@ -107,7 +113,7 @@ main {
   margin: 0 auto;
   justify-content: space-between;
   text-align: center;
-  width: calc(100% - 100px);
+  width: calc(100% - 50px);
 }
 
 main h1 {
@@ -119,14 +125,16 @@ main h1 {
 main h2 {
   font-size: 24px;
   margin-top: 5px;
+  
 }
 
 .stm {
-  font-size: 20px;
+  font-size: 15px;
   padding-left: 16px;
+  /* padding-top: 28px; */
   font-weight: normal;
   /* display: flex; */
-  align-items: center;
+  /* align-items: left; */
   font-style: normal;
   text-align: left;
 }
@@ -146,3 +154,5 @@ footer {
   text-align: center;
   color: #aaa;
 }
+
+/* large screan */
